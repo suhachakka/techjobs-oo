@@ -18,7 +18,6 @@ public class Job {
         id = nextId;
         nextId++;
     }
-
     public Job(String aName, Employer aEmployer, Location aLocation,
                PositionType aPositionType, CoreCompetency aSkill) {
 
